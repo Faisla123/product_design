@@ -84,6 +84,27 @@ document.querySelectorAll(".elem")
     });
 });
 
+gsap.from("#second,.elem",{
+    y:60,
+    opacity:1,
+    duration:4,
+    stagger:0.4,
+    scrollTrigger:{
+        trigger:"#second",
+        scroller:"body",
+        start:"top 45%",
+        end:"top 55%",
+        scrub:7,
+
+    }
+})
+
+
+
+
+
+
+
 circleMouseFollower();
 firstPageAnim();
 mouseSkew();

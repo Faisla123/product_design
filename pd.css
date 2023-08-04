@@ -263,3 +263,27 @@ html,body{
 .bounding .boundinglm{
     transform: translateY(100%);
 }
+
+.elem:hover{
+    color: #595151;
+}
+
+.elem:hover h1{
+    transform: translateX(60px);
+    scale: 1.2;
+}
+.elem h1{
+    transition: 1s ease;
+}
+
+#text-about button:hover{
+    background-color:white;
+    color: black;
+}
+#text-about button{
+    transition: 1s ease;
+}
+
+
+
+
